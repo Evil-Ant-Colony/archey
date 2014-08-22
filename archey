@@ -306,6 +306,7 @@ for x in display:
 # Array containing values.
 result.extend(['']*(20 - len(display)))
 
+'''
 # Result.
 if DetectDistro == 'Ubuntu':
  print """
@@ -436,6 +437,62 @@ if DetectDistro == 'LinuxMint':
 %s                                     %s
 %s                                     %s
 %s""" % ( whiteB, result[0], whiteB, result[1], whiteB, result[2], whiteB, greenB, whiteB, result[3], whiteB, greenB, whiteB, result[4], whiteB, greenB, whiteB, result[5], whiteB, greenB, whiteB, result[6], whiteB, greenB, whiteB, result[7], whiteB, greenB, whiteB, result[8], whiteB, greenB, whiteB, result[9], whiteB, greenB, whiteB, result[10], whiteB, greenB, whiteB, result[11], whiteB, greenB, whiteB, result[12], whiteB, greenB, whiteB, result[13], whiteB, result[14], whiteB, result[15], whiteB, result[16], whiteB, result[17], clear )
+
+'''
+
+print """
+%s                        _ %s  ,.---'7       %s
+%s                       / \%s.'.--.,<..      %s
+%s                      ( . \%s'``'-..-.`\    %s
+%s                      ( |  %s-''--.\).`-j   %s
+%s                       \`     %s.l %s\|%s `-    %s
+%s                   __ (%s/%sY%s  .-'%sWW%s) %s`%s   `.  %s
+%s                  (_ )%s(.(    %s`''     %s~ ~) %s
+%s                    \\\\%s|| `.%s'.'   %s'```--/  %s
+%s                     \%s|'.(.`.%s-...,---'`   %s
+%s    ,.---.     %s___   %s/( |,\`-;   %s\        %s
+%s  .' .--. '.%s.'`   `'%s(  \\'l`;%s      \       %s
+%s / .'-'''':%s/ %s_\.--   %s\  '.\        %s)%s\     %s
+%s(  y'   -`%s| %s/-.-\%s     \  .'`-.     ) \    %s
+%s \(    (  %s(%s((:.:))%s     \  '.  `-.-'   )   %s
+%s  '. |\(   %s\%s\\\\_//%s       '.  '.    .-'`|   %s
+%s    ''.`    %s\%s```  %s.%s       '.  `-'`   /    %s
+%s             \     \__.    /%s'.     .'     %s
+%s           -'     /  .'   (   %s'-.-'       %s
+%s          |     ,'  .|    |    (         
+%s         .'    /   (.'    \     \        
+%s         |    (     (      \     \       
+%s         |     \    |       \   %s/\%s\      
+%s        .'   %s._/\ /\%s|%s   .   )\-'  `:     
+%s        |%s.;_/    )__%s(%s_.-''-`  )-..-'     
+%s         `'-----'    `'--...-'           
+%s """ % (redN, yellowN, result[0], 
+		  redN, yellowN, result[1], 
+		  redN, yellowN, result[2], 
+		  redN, yellowN, result[3], 
+		  redN, whiteN, yellowN, redN, result[4], 
+		  whiteN, yellowN, redN, whiteN, blackB, whiteN, yellowN, redN, result[5], 
+		  whiteN, yellowN, greenN, redN, result[6], 
+		  whiteN, yellowN, whiteN, redN, result[7], 
+		  whiteN, yellowN, redN, result[8], 
+		  yellowN, redN, yellowN, redN, result[9], 
+		  yellowN, redN, yellowN, redN, result[10], 
+		  yellowN, redN, greenN, yellowN, redN, yellowN, result[11], 
+		  yellowN, redN, greenN, yellowN, result[12], 
+		  yellowN, redN, greenN, yellowN, result[13], 
+		  yellowN, redN, greenN, yellowN, result[14], 
+		  yellowN, redN, greenN, redN, yellowN, result[15], 
+		  redN, yellowN, result[16], 
+		  redN, yellowN, result[17], 
+		  redN, 
+		  redN, 
+		  redN, 
+		  redN, yellowB, redN,
+		  redN, yellowB, redN, yellowB,
+		  redN, yellowB, redN, yellowB, 
+		  yellowB,
+		  clear) 
+
 
 if screen == 'True':
  screenshot()
